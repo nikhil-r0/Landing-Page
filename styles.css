@@ -202,3 +202,13 @@ a{
     color: white;
     font-size: 18px;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
