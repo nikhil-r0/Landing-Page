@@ -148,3 +148,57 @@ a{
     font-size: 24px;
     color: #1f2937;
 }
+
+/* Call to Action */
+
+.two{
+    display: flex;
+    flex-direction: column;
+    padding-left: 175px;
+    padding-right: 48px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    gap: 5px; 
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    border: #3882f6 solid 2px;
+    border-radius: 5px ;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.call-to-action button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    align-self: center;
+}
+
+.call-to-action .text{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#one{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+
+#two{
+    color: white;
+    font-size: 18px;
+}
