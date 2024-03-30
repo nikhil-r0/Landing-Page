@@ -7,6 +7,13 @@ body{
     font-family: 'Arial', Times, serif;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+
 /* Header Elements */
 
 .header{
@@ -22,10 +29,6 @@ body{
 
 .header ul{
     display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    gap: 10px;
     font-size: 18px;
 }
 
@@ -79,3 +82,43 @@ a{
 }
 
 /* Footer elements */
+/* Part one*/
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.body .one{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 175px;
+    padding-right: 48px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.one .text{
+    align-self:center ;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.one ul{
+    display: flex;
+    font-size: 18px;
+    color: gray;
+    justify-content: space-around;
+}
+
+.one ul img{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.one li{
+    max-width: min-content;
+    text-align: center;
+}
