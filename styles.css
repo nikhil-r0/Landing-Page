@@ -122,3 +122,29 @@ a{
     max-width: min-content;
     text-align: center;
 }
+
+/* Quotation */
+
+.quotation{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #e5e7eb;
+    gap: 5px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    align-self: center;
+    font-weight: 800;
+    font-size: 24px;
+    color: #1f2937;
+}
